@@ -1,0 +1,10 @@
+<launch>
+	<param name="icps/ConfParam/speedDriftThreshold" value="1.0"/>
+	<param name="icps/ConfParam/mobSumUpdateInterval" value="1.0"/>
+	
+	<node pkg="icps" name="configurationManager" type="configurationManager"/>
+	<node pkg="icps" name="mobilityManager" type="mobilityManager" output="screen"/>
+	<!--node pkg="icps" name="spInterface" type="spInterface" output="screen"/-->
+	<!--node pkg="icps" name="obuInterface" type="obuInterface"/-->
+
+</launch>

@@ -1,0 +1,2 @@
+float64 mobSumUpdateInterval
+float64 speedDriftThreshold
